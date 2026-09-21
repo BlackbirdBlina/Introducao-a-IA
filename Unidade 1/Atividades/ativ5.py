@@ -112,7 +112,7 @@ def plot_solution_graph(problem, plan):
             arrowsize = 20, font_size = 9, font_weight = 'bold', alpha = 0.5)
     
     nx.draw_networkx_edge_labels(G, pos, edge_labels = edge_labels, 
-                                 font_color='red', font_size = 8)
+                                 font_color = 'red', font_size = 8)
     
     plt.show()
 
